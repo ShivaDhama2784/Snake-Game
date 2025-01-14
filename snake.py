@@ -127,7 +127,7 @@ class SnakeGame:
 
     def draw_menu(self):
         self.screen.fill(BLACK)
-        title = self.large_font.render("ENHANCED SNAKE GAME", True, GREEN)
+        title = self.large_font.render("SNAKE GAME", True, GREEN)
         title_rect = title.get_rect(center=(WINDOW_WIDTH // 2, WINDOW_HEIGHT // 3))
         self.screen.blit(title, title_rect)
 
